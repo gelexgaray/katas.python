@@ -1,13 +1,12 @@
-# python-code-katas
+# katas.python
 Repository for Code Katas
 
 
 # Setup
 
-1. If you don't already have a virtualenv installed (or a virtual environment process), setup it up with help from the [Python Packaging User Guide](https://packaging.python.org/en/latest/installing.html#virtual-environments).  In short, for Python <3.4, securely download [get-pip.py](https://raw.github.com/pypa/pip/master/contrib/get-pip.py) and then execute the following (omit sudo if you can):
+1. If you don't already have a virtualenv installed (or a virtual environment process), setup it up with help from the [Python Packaging User Guide](https://packaging.python.org/en/latest/installing.html#virtual-environments). If you don't have virtualenv installed:
 
 ```bash
-sudo python get-pip.py
 sudo pip install -U setuptools
 sudo pip install virtualenv
 ```
@@ -15,7 +14,7 @@ sudo pip install virtualenv
 2. Now setup a virtual environment for this repository.
 
 ```bash
-cd python-code-kata
+cd katas.python
 virtualenv .
 source bin/activate
 ```
